@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #006767;
+    background: #006472;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: teal;
+    background: #007b8b;
     opacity: 1;
     transition: all 0.5s ease-out;
     transform: translate3d(0, 100%, 0); }
@@ -128,7 +128,7 @@
   box-sizing: border-box; }
 
 body {
-  background-color: teal;
+  background-color: #007b8b;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -145,7 +145,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(0, 128, 128, 0.8);
+      background: rgba(0, 123, 139, 0.8);
       z-index: -1; }
 
 h1,
@@ -162,7 +162,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(0, 138, 138, 0.5); }
+    background: rgba(0, 132, 149, 0.5); }
 
 a {
   color: #fff;
