@@ -1,5 +1,6 @@
 @import "config";
 @import "menu";
+@import "mobile";
 
 * {
   box-sizing: border-box;
@@ -59,6 +60,7 @@ main {
 
   .icons {
     margin-top: 1rem;
+    margin-right: 2rem;
 
     a {
       padding: 0.4rem;
