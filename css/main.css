@@ -59,7 +59,7 @@
       background: url("../img/me-bw.png");
       background-size: cover;
       border-radius: 50%;
-      border: solid 3px dodgerblue;
+      border: solid 3px #4267b2;
       opacity: 1; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
@@ -67,7 +67,7 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: dodgerblue; }
+      color: #4267b2; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -79,7 +79,7 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: dodgerblue; }
+      color: #4267b2; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -138,7 +138,7 @@ a {
   margin-right: 0.5rem;
   text-decoration: none; }
   a:hover {
-    color: dodgerblue;
+    color: #4267b2;
     transition: all 0.5s ease-out; }
 
 header {
@@ -147,7 +147,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: dodgerblue; }
+  color: #4267b2; }
 
 main {
   padding: 4rem;
@@ -171,7 +171,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: dodgerblue 3px solid; }
+    border: #4267b2 3px solid; }
   .about-info .bio {
     grid-area: bio; }
   .about-info .job-1 {
@@ -183,7 +183,7 @@ main {
   .about-info .job {
     background: #f2f2f2;
     padding: 0.5rem;
-    border-bottom: dodgerblue 5px solid; }
+    border-bottom: #4267b2 5px solid; }
 
 #main-footer {
   text-align: center;
