@@ -1,0 +1,51 @@
+.modal {
+  display: none;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40rem;
+  width: 85vw;
+  padding: 2rem;
+
+  h1 {
+    position: fixed;
+    z-index: 1;
+  }
+
+  img {
+    position: fixed;
+    top: 6rem;
+    width: 45rem;
+  }
+
+  .description {
+    width: 45rem;
+    position: fixed;
+    margin-top: 29.5rem;
+    color: black;
+    z-index: 1;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: $primary-color;
+  }
+}
+
+.dimmer {
+  display: none;
+  position: fixed;
+  background-color: black;
+  opacity: 0.8;
+  height: 100vh;
+  width: 100vw;
+}
+
+.modal-close {
+  border: none;
+  background-color: none;
+  font-size: 40px;
+  position: fixed;
+  top: 2%;
+  right: 2%;
+}

@@ -4,11 +4,23 @@ const menu = document.querySelector(".menu");
 const menuBranding = document.querySelector(".menu-branding");
 const menuNav = document.querySelector(".menu-nav");
 const navItems = document.querySelectorAll(".nav-item");
+const closeBtn = document.querySelector(".modal-close");
+const modal = document.querySelector(".modal");
+const dimmer = document.querySelector(".dimmer");
+const projectsContainer = document.querySelector(".projects");
 
 // Set Initial State of Menu
 let showMenu = false;
 
 menuBtn.addEventListener("click", toggleMenu);
+closeBtn.addEventListener("click", handleCloseModal);
+initProjectCards();
+
+function initProjectCards() {
+  projectsContainer
+    .querySelectorAll("img")
+    .forEach(imgDiv => imgDiv.addEventListener("click", handleOpenModal));
+}
 
 function toggleMenu() {
   if (!showMenu) {
@@ -28,4 +40,15 @@ function toggleMenu() {
 
     showMenu = false;
   }
+}
+
+function handleCloseModal() {
+  modal.style.display = "none";
+  dimmer.style.display = "none";
+}
+
+function handleOpenModal(e) {
+  e.preventDefault();
+  modal.style.display = "block";
+  dimmer.style.display = "block";
 }
