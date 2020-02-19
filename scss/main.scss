@@ -113,9 +113,14 @@ main {
     border-bottom: $secondary-color 5px solid;
     text-align: left;
 
+    h3 {
+      font-size: 1.5rem;
+    }
+
     ul {
       text-align: left;
-      padding: none;
+      padding-inline-start: 1rem;
+      list-style-position: outside;
     }
 
     .icons-container {

@@ -77,4 +77,11 @@
   .projects {
     grid-template-columns: 1fr;
   }
+
+  .job {
+    h3,
+    h4 {
+      text-align: center;
+    }
+  }
 }

@@ -185,9 +185,12 @@ main {
     padding: 1rem;
     border-bottom: dodgerblue 5px solid;
     text-align: left; }
+    .about-info .job h3 {
+      font-size: 1.5rem; }
     .about-info .job ul {
       text-align: left;
-      padding: none; }
+      padding-inline-start: 1rem;
+      list-style-position: outside; }
     .about-info .job .icons-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
@@ -278,4 +281,7 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .job h3,
+  .job h4 {
+    text-align: center; } }
