@@ -111,6 +111,12 @@ main {
     background: darken($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+    text-align: left;
+
+    ul {
+      text-align: left;
+      padding-right: 1rem;
+    }
   }
 }
 

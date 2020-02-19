@@ -183,7 +183,11 @@ main {
   .about-info .job {
     background: #dedede;
     padding: 0.5rem;
-    border-bottom: dodgerblue 5px solid; }
+    border-bottom: dodgerblue 5px solid;
+    text-align: left; }
+    .about-info .job ul {
+      text-align: left;
+      padding-right: 1rem; }
 
 .projects {
   display: grid;
