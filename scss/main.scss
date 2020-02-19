@@ -121,6 +121,10 @@ main {
       text-align: left;
       padding-inline-start: 1rem;
       list-style-position: outside;
+
+      li {
+        margin-bottom: 1rem;
+      }
     }
 
     .icons-container {

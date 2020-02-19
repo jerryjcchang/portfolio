@@ -191,6 +191,8 @@ main {
       text-align: left;
       padding-inline-start: 1rem;
       list-style-position: outside; }
+      .about-info .job ul li {
+        margin-bottom: 1rem; }
     .about-info .job .icons-container {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
