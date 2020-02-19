@@ -127,12 +127,6 @@ main {
       }
     }
 
-    .icons-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 0.8rem;
-    }
-
     i {
       font-size: 85px;
     }
@@ -145,6 +139,12 @@ main {
   .tech-list {
     list-style-type: none;
   }
+}
+
+.icons-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0rem;
 }
 
 // Work/Projects

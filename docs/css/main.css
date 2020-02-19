@@ -193,14 +193,15 @@ main {
       list-style-position: outside; }
       .about-info .job ul li {
         margin-bottom: 1rem; }
-    .about-info .job .icons-container {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-gap: 0.8rem; }
     .about-info .job i {
       font-size: 85px; }
   .about-info .tech-list {
     list-style-type: none; }
+
+.icons-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0rem; }
 
 .projects {
   display: grid;
