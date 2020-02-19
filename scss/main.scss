@@ -109,14 +109,32 @@ main {
 
   .job {
     background: darken($primary-color, 5);
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: $secondary-color 5px solid;
     text-align: left;
 
     ul {
       text-align: left;
-      padding-right: 1rem;
+      padding: none;
     }
+
+    .icons-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 0.8rem;
+    }
+
+    i {
+      font-size: 85px;
+    }
+  }
+
+  // #tech-div {
+  //   background-color: lighten($secondary-color, 35);
+  // }
+
+  .tech-list {
+    list-style-type: none;
   }
 }
 
