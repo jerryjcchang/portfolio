@@ -194,19 +194,22 @@ main {
       .about-info .job ul li {
         margin-bottom: 1rem; }
     .about-info .job i {
-      font-size: 85px; }
+      font-size: 4.5rem; }
   .about-info .tech-list {
     list-style-type: none; }
 
 .icons-container {
   display: grid;
+  margin: auto;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0rem; }
+  grid-column-gap: 0.8rem;
+  grid-row-gap: 0.8rem; }
+  .icons-container .icons {
+    margin-bottom: 0.8rem; }
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.7rem; }
+  grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
     border: 3px white solid; }

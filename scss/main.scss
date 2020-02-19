@@ -128,7 +128,7 @@ main {
     }
 
     i {
-      font-size: 85px;
+      font-size: 4.5rem;
     }
   }
 
@@ -143,15 +143,20 @@ main {
 
 .icons-container {
   display: grid;
+  margin: auto;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0rem;
+  grid-column-gap: 0.8rem;
+  grid-row-gap: 0.8rem;
+
+  .icons {
+    margin-bottom: 0.8rem;
+  }
 }
 
 // Work/Projects
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.7rem;
 
   img {
     width: 100%;
