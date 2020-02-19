@@ -194,7 +194,7 @@ main {
       .about-info .job ul li {
         margin-bottom: 1rem; }
     .about-info .job i {
-      font-size: 4.5rem; }
+      font-size: 4.2rem; }
   .about-info .tech-list {
     list-style-type: none; }
 
@@ -205,7 +205,7 @@ main {
   grid-column-gap: 0.8rem;
   grid-row-gap: 0.8rem; }
   .icons-container .icons {
-    margin-bottom: 0.8rem; }
+    margin: auto; }
 
 .projects {
   display: grid;
