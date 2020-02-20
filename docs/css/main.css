@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #000;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #3e3e3e;
+    background: #f2f2f2;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #4b4b4b;
+    background: white;
     opacity: 1;
     transition: all 0.5s ease-out;
     transform: translate3d(0, 100%, 0); }
@@ -75,7 +75,7 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
@@ -97,8 +97,8 @@
   box-sizing: border-box; }
 
 body {
-  background-color: #4b4b4b;
-  color: #fff;
+  background-color: white;
+  color: #000;
   height: 100%;
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -114,7 +114,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(75, 75, 75, 0.8);
+      background: rgba(255, 255, 255, 0.8);
       z-index: -1; }
 
 h1,
@@ -131,10 +131,11 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(80, 80, 80, 0.5); }
+    background: dodgerblue;
+    color: white; }
 
 a {
-  color: #fff;
+  color: #000;
   margin-right: 0.5rem;
   text-decoration: none; }
   a:hover {
@@ -161,11 +162,15 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+  main#contact {
+    overflow: hidden; }
+    main#contact h1 {
+      font-size: 4.75rem; }
 
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" "job1 job3 job2";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -181,14 +186,35 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #3e3e3e;
-    padding: 0.5rem;
-    border-bottom: dodgerblue 5px solid; }
+    background: #f2f2f2;
+    padding: 1rem;
+    border-bottom: dodgerblue 5px solid;
+    text-align: left; }
+    .about-info .job h3 {
+      font-size: 1.5rem; }
+    .about-info .job ul {
+      text-align: left;
+      padding-inline-start: 1rem;
+      list-style-position: outside; }
+      .about-info .job ul li {
+        margin-bottom: 1rem; }
+    .about-info .job i {
+      font-size: 4.2rem; }
+  .about-info .tech-list {
+    list-style-type: none; }
+
+.icons-container {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0.8rem;
+  grid-row-gap: 0.8rem; }
+  .icons-container .icons {
+    margin: auto; }
 
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.7rem; }
+  grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
     border: 3px white solid; }
@@ -218,8 +244,8 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #323232;
-  color: #fff;
+  background: #e6e6e6;
+  color: #000;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
@@ -253,7 +279,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url("../img/me-bw-small.png");
+      background: url("../img/me-small.png");
       width: 150px;
       height: 150px; }
   .about-info {
@@ -266,4 +292,7 @@ main {
   main#home h1 {
     margin-top: 10vh; }
   .projects {
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  .job h3,
+  .job h4 {
+    text-align: center; } }

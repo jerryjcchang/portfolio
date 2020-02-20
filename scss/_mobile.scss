@@ -46,7 +46,7 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url("../img/me-bw-small.png");
+      background: url("../img/me-small.png");
       width: 150px;
       height: 150px;
     }
@@ -76,5 +76,12 @@
 
   .projects {
     grid-template-columns: 1fr;
+  }
+
+  .job {
+    h3,
+    h4 {
+      text-align: center;
+    }
   }
 }

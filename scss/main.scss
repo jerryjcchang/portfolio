@@ -29,7 +29,9 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+    // background: rgba(lighten($primary-color, 2), 0.5);
+    background: $secondary-color;
+    color: white;
   }
 }
 
@@ -74,6 +76,13 @@ main {
       margin-top: 20vh;
     }
   }
+
+  &#contact {
+    overflow: hidden;
+    h1 {
+      font-size: 4.75rem;
+    }
+  }
 }
 
 .about-info {
@@ -81,7 +90,7 @@ main {
   grid-gap: 30px;
   grid-template-areas:
     "bioimage bio bio"
-    "job1 job2 job3";
+    "job1 job3 job2";
   grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
@@ -109,8 +118,47 @@ main {
 
   .job {
     background: darken($primary-color, 5);
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: $secondary-color 5px solid;
+    text-align: left;
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    ul {
+      text-align: left;
+      padding-inline-start: 1rem;
+      list-style-position: outside;
+
+      li {
+        margin-bottom: 1rem;
+      }
+    }
+
+    i {
+      font-size: 4.2rem;
+    }
+  }
+
+  // #tech-div {
+  //   background-color: lighten($secondary-color, 35);
+  // }
+
+  .tech-list {
+    list-style-type: none;
+  }
+}
+
+.icons-container {
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 0.8rem;
+  grid-row-gap: 0.8rem;
+
+  .icons {
+    margin: auto;
   }
 }
 
@@ -118,7 +166,6 @@ main {
 .projects {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.7rem;
 
   img {
     width: 100%;
