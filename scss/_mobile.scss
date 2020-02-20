@@ -69,6 +69,9 @@
 
   .projects {
     grid-template-columns: repeat(2, 1fr);
+    img {
+      height: 24vw;
+    }
   }
 }
 
@@ -85,6 +88,9 @@
 
   .projects {
     grid-template-columns: 1fr;
+    img {
+      height: 50vw;
+    }
   }
 
   .job {

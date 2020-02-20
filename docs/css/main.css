@@ -217,7 +217,9 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px white solid; }
+    height: 18vw;
+    border: 3px white solid;
+    margin-bottom: none; }
     .projects img:hover {
       opacity: 0.5;
       border-color: dodgerblue;
@@ -288,7 +290,9 @@ main {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
-    grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(2, 1fr); }
+    .projects img {
+      height: 24vw; } }
 
 @media screen and (max-width: 500px) {
   main#home h1 {
@@ -298,6 +302,8 @@ main {
     padding: 2rem; }
   .projects {
     grid-template-columns: 1fr; }
+    .projects img {
+      height: 50vw; }
   .job h3,
   .job h4 {
     text-align: center; } }
