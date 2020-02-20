@@ -195,7 +195,7 @@ main {
 
 .btn-dark {
   @extend .btn;
-  background: darken($secondary-color, 50);
+  background: lighten($secondary-color, 30);
 }
 
 .btn-light {
