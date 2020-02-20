@@ -24,7 +24,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.95;
   visibility: hidden; }
   .menu.show {
     visibility: visible; }
@@ -43,11 +42,12 @@
     background: #f2f2f2;
     list-style: none;
     transform: translate3d(0, -100%, 0);
+    opacity: 0.95;
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: white;
+    background: dodgerblue;
     opacity: 1;
     transition: all 0.5s ease-out;
     transform: translate3d(0, 100%, 0); }
@@ -162,6 +162,10 @@ main {
     overflow: hidden; }
     main#home h1 {
       margin-top: 20vh; }
+  main#contact {
+    overflow: hidden; }
+    main#contact h1 {
+      font-size: 4.75rem; }
 
 .about-info {
   display: grid;
@@ -231,7 +235,7 @@ main {
     color: #000; }
 
 .btn-dark {
-  background: #84c2ff; }
+  background: #b7dbff; }
 
 .btn-light {
   background: #84c2ff;
@@ -246,7 +250,7 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
@@ -289,6 +293,9 @@ main {
 @media screen and (max-width: 500px) {
   main#home h1 {
     margin-top: 10vh; }
+  main#work,
+  main#about {
+    padding: 2rem; }
   .projects {
     grid-template-columns: 1fr; }
   .job h3,

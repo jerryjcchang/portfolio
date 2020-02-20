@@ -39,7 +39,6 @@
   position: fixed;
   top: 0;
   width: 100%;
-  opacity: 0.95;
   visibility: hidden;
 
   &.show {
@@ -64,6 +63,7 @@
     background: darken($primary-color, 5);
     list-style: none;
     transform: translate3d(0, -100%, 0);
+    opacity: 0.95;
     @include easeOut;
 
     &.show {
@@ -73,7 +73,7 @@
   }
 
   &-branding {
-    background: $primary-color;
+    background: $secondary-color;
     opacity: 1;
     @include easeOut;
     transform: translate3d(0, 100%, 0);

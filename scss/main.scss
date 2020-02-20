@@ -76,6 +76,13 @@ main {
       margin-top: 20vh;
     }
   }
+
+  &#contact {
+    overflow: hidden;
+    h1 {
+      font-size: 4.75rem;
+    }
+  }
 }
 
 .about-info {
@@ -188,7 +195,7 @@ main {
 
 .btn-dark {
   @extend .btn;
-  background: lighten($secondary-color, 20);
+  background: lighten($secondary-color, 30);
 }
 
 .btn-light {
