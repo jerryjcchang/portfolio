@@ -1,4 +1,12 @@
 // Select DOM Items
+document.addEventListener("DOMContentLoaded", () => {
+  if (window.innerWidth <= 500) {
+    const subheading = document.querySelector(".sm-heading");
+    subheading.innerText = subheading.innerText
+      .replace(/[|]/g, "")
+      .replace(/\s\s+/g, " ");
+  }
+});
 const menuBtn = document.querySelector(".menu-btn");
 const menu = document.querySelector(".menu");
 const menuBranding = document.querySelector(".menu-branding");
