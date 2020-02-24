@@ -85,6 +85,9 @@
   main#about,
   main#contact,
   main#resume {
+    h1 {
+      font-size: 5rem;
+    }
     padding-left: 2rem;
     padding-right: 2rem;
   }

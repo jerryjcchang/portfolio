@@ -321,6 +321,11 @@ main {
   main#resume {
     padding-left: 2rem;
     padding-right: 2rem; }
+    main#work h1,
+    main#about h1,
+    main#contact h1,
+    main#resume h1 {
+      font-size: 5rem; }
   .projects {
     grid-template-columns: 1fr; }
     .projects img {
