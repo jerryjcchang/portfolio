@@ -320,24 +320,29 @@ main {
     margin-top: 10vh; }
   main#work,
   main#about,
-  main#contact,
-  main#resume {
+  main#contact {
     padding-left: 2rem;
     padding-right: 2rem; }
     main#work h1,
     main#about h1,
-    main#contact h1,
-    main#resume h1 {
+    main#contact h1 {
       font-size: 5rem; }
+  main#resume {
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem; }
+    main#resume h1 {
+      font-size: 5rem;
+      margin: auto; }
+    main#resume embed {
+      width: 100%; }
+    main#resume h1 {
+      font-size: 3.5rem;
+      margin-bottom: 1rem; }
   .projects {
     grid-template-columns: 1fr; }
     .projects img {
       height: 50vw; }
   .job h3,
   .job h4 {
-    text-align: center; }
-  #resume {
-    width: 100%; }
-    #resume h1 {
-      font-size: 5rem;
-      margin: auto; } }
+    text-align: center; } }
