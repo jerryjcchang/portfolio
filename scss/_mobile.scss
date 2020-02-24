@@ -82,8 +82,11 @@
   }
 
   main#work,
-  main#about {
-    padding: 2rem;
+  main#about,
+  main#contact,
+  main#resume {
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .projects {
