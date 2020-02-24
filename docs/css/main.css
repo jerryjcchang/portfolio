@@ -264,6 +264,10 @@ main {
     background-color: dodgerblue;
     color: white; }
 
+#resume {
+  height: 80vh;
+  margin-bottom: 30vh; }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
@@ -320,4 +324,9 @@ main {
       height: 50vw; }
   .job h3,
   .job h4 {
-    text-align: center; } }
+    text-align: center; }
+  #resume {
+    width: 100%; }
+    #resume h1 {
+      font-size: 5rem;
+      margin: auto; } }
