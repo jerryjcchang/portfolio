@@ -6,7 +6,6 @@
 }
 
 body {
-  @include background;
   background-color: $primary-color;
   color: set-text-color($primary-color);
   height: 100%;
@@ -56,9 +55,9 @@ header {
 }
 
 main {
-  padding: 4rem;
+  // padding: 4rem;
   // height: 100%;
-  min-height: calc(100vh - 60px);
+  // min-height: calc(100vh - 60px);
 
   .icons {
     margin-top: 1rem;
@@ -72,6 +71,7 @@ main {
 
   &#home {
     overflow: hidden;
+    height: 100vh;
     h1 {
       margin-top: 20vh;
     }
@@ -83,6 +83,12 @@ main {
       font-size: 4.75rem;
     }
   }
+}
+
+#home {
+  // margin-top: 20vh;
+  height: 100vh;
+  @include background;
 }
 
 .about-info {
