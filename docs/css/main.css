@@ -93,6 +93,27 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+.desktop-nav {
+  position: absolute;
+  right: 4rem;
+  top: 7.5rem;
+  margin: 0;
+  padding: 0; }
+  .desktop-nav li {
+    display: inline;
+    font-size: 1.75rem;
+    border-color: #9ecfff;
+    border-bottom-style: solid;
+    transition: all 0.5s ease-out;
+    margin: auto;
+    width: 100%; }
+    .desktop-nav li a {
+      padding: 0rem 0.5rem;
+      margin: 0; }
+    .desktop-nav li:hover {
+      border-color: dodgerblue;
+      border-bottom-style: solid; }
+
 * {
   box-sizing: border-box; }
 

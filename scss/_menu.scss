@@ -130,3 +130,37 @@
     transition-delay: $x * 0.1s;
   }
 }
+
+.desktop-nav {
+  position: absolute;
+  right: 4rem;
+  top: 7.5rem;
+  // list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  li {
+    display: inline;
+    font-size: 1.75rem;
+    // margin-right: 1rem;
+    // margin: auto;
+    // border-bottom: black;
+    // padding-left: 0.2rem;
+    // padding-right: 0.2rem;
+    border-color: lighten($secondary-color, 25);
+    border-bottom-style: solid;
+    @include easeOut;
+    margin: auto;
+    width: 100%;
+
+    a {
+      padding: 0rem 0.5rem;
+      margin: 0;
+    }
+
+    &:hover {
+      border-color: $secondary-color;
+      border-bottom-style: solid;
+    }
+  }
+}
