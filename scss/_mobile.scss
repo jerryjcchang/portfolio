@@ -91,11 +91,22 @@
     padding-right: 2rem;
   }
 
+  #heading {
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+  }
+
   main#work {
     #heading {
       font-size: 6rem;
       line-height: 1.5;
       margin-bottom: 0.5rem;
+    }
+  }
+
+  main#contact {
+    #heading {
+      font-size: 4.9rem;
     }
   }
 
@@ -110,7 +121,7 @@
 
     h1 {
       margin-bottom: 1rem;
-      font-size: 4rem;
+      font-size: 6rem;
     }
   }
 

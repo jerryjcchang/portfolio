@@ -161,7 +161,7 @@ main {
     margin-right: 2rem; }
     main .icons a {
       padding: 0.4rem; }
-  main#work #heading {
+  main#work #heading, main#contact #heading {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
     font-size: 7rem; }
@@ -331,10 +331,15 @@ main {
     main#about h1,
     main#contact h1 {
       font-size: 4rem; }
+  #heading {
+    line-height: 1.5;
+    margin-bottom: 0.5rem; }
   main#work #heading {
     font-size: 6rem;
     line-height: 1.5;
     margin-bottom: 0.5rem; }
+  main#contact #heading {
+    font-size: 4.9rem; }
   main#resume {
     width: 100%;
     padding-left: 1rem;
@@ -343,7 +348,7 @@ main {
       width: 100%; }
     main#resume h1 {
       margin-bottom: 1rem;
-      font-size: 4rem; }
+      font-size: 6rem; }
   .projects {
     grid-template-columns: 1fr; }
     .projects img {
