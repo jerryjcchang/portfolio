@@ -161,6 +161,10 @@ main {
     margin-right: 2rem; }
     main .icons a {
       padding: 0.4rem; }
+  main#work #heading {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 7rem; }
   main#home {
     overflow: hidden; }
     main#home h1 {
