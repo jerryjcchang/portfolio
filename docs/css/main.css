@@ -275,6 +275,9 @@ main {
   height: 80vh;
   margin-bottom: 30vh; }
 
+footer .rlb {
+  display: inline; }
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
@@ -350,6 +353,8 @@ main {
     main#resume h1 {
       margin-bottom: 1rem;
       font-size: 5.5rem; }
+  footer {
+    font-size: 0.8rem; }
   .projects {
     grid-template-columns: 1fr; }
     .projects img {
