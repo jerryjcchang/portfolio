@@ -217,10 +217,12 @@ main {
   grid-column-gap: 0.8rem;
   grid-row-gap: 0.8rem;
   justify-items: center; }
-  .icons-container .icons {
-    margin: auto; }
+  .icons-container .icon {
+    margin: auto;
+    text-align: center;
+    vertical-align: middle; }
   .icons-container .s-logo {
-    width: 100%; }
+    width: 80%; }
 
 .projects {
   display: grid;
