@@ -327,32 +327,24 @@ footer .rlb {
     margin-top: 10vh; }
   main#work,
   main#about,
-  main#contact {
-    padding-left: 2rem;
-    padding-right: 2rem; }
-    main#work h1,
-    main#about h1,
-    main#contact h1 {
-      font-size: 4rem; }
-  #heading {
-    line-height: 1.5;
-    margin-bottom: 0.5rem; }
-  main#work #heading {
-    font-size: 5.5rem;
-    line-height: 1.5;
-    margin-bottom: 0.5rem; }
-  main#contact #heading {
-    font-size: 4.5rem; }
+  main#contact,
   main#resume {
-    width: 100%;
     padding-left: 2rem;
     padding-right: 2rem; }
+    main#work #heading,
+    main#about #heading,
+    main#contact #heading,
+    main#resume #heading {
+      line-height: 1.5;
+      margin-bottom: 0.5rem;
+      font-size: 4.5rem; }
+  main#resume {
+    width: 100%; }
     main#resume embed {
       width: 100%;
       height: 40rem; }
     main#resume h1 {
-      margin-bottom: 1rem;
-      font-size: 5.5rem; }
+      margin-bottom: 1rem; }
   footer {
     font-size: 0.8rem; }
   .projects {
