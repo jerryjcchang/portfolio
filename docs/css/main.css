@@ -215,9 +215,12 @@ main {
   margin: auto;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 0.8rem;
-  grid-row-gap: 0.8rem; }
+  grid-row-gap: 0.8rem;
+  justify-items: center; }
   .icons-container .icons {
     margin: auto; }
+  .icons-container .s-logo {
+    width: 100%; }
 
 .projects {
   display: grid;
