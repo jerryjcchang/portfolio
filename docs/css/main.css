@@ -342,8 +342,8 @@ main {
     font-size: 4.5rem; }
   main#resume {
     width: 100%;
-    padding-left: 1rem;
-    padding-right: 1rem; }
+    padding-left: 2rem;
+    padding-right: 2rem; }
     main#resume embed {
       width: 100%; }
     main#resume h1 {
